@@ -1,0 +1,50 @@
+{
+  "name": "grunt-yabs-test",
+  "description": "Dummy project used to test grunt-yabs.",
+  "version": "0.0.1-0",
+  "homepage": "https://github.com/mar10/grunt-yabs-test",
+  "author": {
+    "name": "Martin Wendt",
+    "url": "git://github.com/mar10/grunt-yabs-test.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mar10/grunt-yabs-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mar10/grunt-yabs-test/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mar10/grunt-yabs-test/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "dummy"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compress": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-qunit": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^1.0.0",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-yabs": "^1.1.0",
+    "jshint": "^2.9.4",
+    "qunitjs": "^1.21"
+  },
+  "peerDependencies": {}
+}
