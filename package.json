@@ -1,7 +1,7 @@
 {
   "name": "grunt-yabs-test",
   "description": "Dummy project used to test grunt-yabs.",
-  "version": "0.0.1-0",
+  "version": "0.0.1",
   "homepage": "https://github.com/mar10/grunt-yabs-test",
   "author": {
     "name": "Martin Wendt",
