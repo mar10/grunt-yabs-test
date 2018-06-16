@@ -14,6 +14,7 @@
   "bugs": {
     "url": "https://github.com/mar10/grunt-yabs-test/issues"
   },
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
@@ -34,15 +35,10 @@
     "grunt": "^1.0.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-compress": "^1.0.0",
-    "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-qunit": "^1.0.1",
-    "grunt-contrib-uglify": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
     "grunt-exec": "^1.0.0",
-    "grunt-text-replace": "^0.4.0",
-    "grunt-yabs": "^1.1.0",
+    "grunt-yabs": "file:../grunt-yabs",
     "jshint": "^2.9.4",
     "qunitjs": "^1.21"
   },
