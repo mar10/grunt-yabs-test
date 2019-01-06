@@ -39,7 +39,7 @@
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-exec": "^1.0.0",
     "grunt-yabs": "file:../grunt-yabs",
-    "jshint": "^2.9.4",
+    "jshint": "^2.9.7",
     "qunitjs": "^1.21"
   },
   "peerDependencies": {}
