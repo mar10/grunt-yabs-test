@@ -47,7 +47,8 @@ module.exports = (grunt) ->
         # npmPublish: {},
         githubRelease:
           repo: "mar10/grunt-yabs-test", #// 'owner/repo'
-          auth: {usernameVar: 'GITHUB_USERNAME', passwordVar: 'GITHUB_PASSWORD'},
+          auth: {oauthTokenVar: 'GITHUB_OAUTH_TOKEN'},
+          # auth: {usernameVar: 'GITHUB_USERNAME', passwordVar: 'GITHUB_PASSWORD'},
     #    tagName: 'v1.0.0',
     #    targetCommitish: null, //'master',
     #       // name: 'v{%= version %}',
