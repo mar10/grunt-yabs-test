@@ -30,7 +30,9 @@
   "scripts": {
     "test": "grunt test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "coffeescript": "^2.6.1"
+  },
   "devDependencies": {
     "grunt": "^1.0.0",
     "grunt-contrib-clean": "^1.0.0",
@@ -41,6 +43,5 @@
     "grunt-yabs": "file:../grunt-yabs",
     "jshint": "^2.9.7",
     "qunitjs": "^1.21"
-  },
-  "peerDependencies": {}
+  }
 }
